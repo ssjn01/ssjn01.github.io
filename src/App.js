@@ -33,6 +33,16 @@ function App() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
+      <footer expand="lg" className="bg-body-tertiary">
+        <div class="container">
+          <div class="row">
+            <div class="col text-center">
+              <h1 class="text-white font-weight-light text-capitalize p-3">SSJ Porfolio</h1>
+              <p class="text-light py-4 m-0">&copy;Copyright 2023 - Made by SSJ</p>
+            </div>
+          </div>
+        </div>
+      </footer>
     </Router>
   )
 }
