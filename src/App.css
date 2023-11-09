@@ -3,8 +3,71 @@
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css");
 
-*{
+html, body{
     margin: 0;
     padding: 0;
+    height: 100vh;
     font-family: 'Pretendard', sans-serif;
+}
+header {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+}
+body {
+    display: grid;
+}
+header {
+    margin-left: 20%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+#content {
+    display: grid;
+    grid-template-columns: 1fr 20px 1fr;
+    margin-left: 15%;
+    margin-bottom: 3%;
+    margin-right: 15%
+}
+.content-item{
+    padding: 5%;
+    background-color: white;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.2);;
+}
+.content-title{
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.education-item-title{
+    font-weight: 500;
+    font-size: 17px;
+    margin-bottom: 5px
+}
+.education-item-content{
+    font-weight: 300;
+    font-size: 13px;
+}
+#title{
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 150%;
+    margin-left: 50px;
+}
+#keyWord{
+    font-weight: 200;
+}
+#profile{
+    width: 170px;
+    height: 170px;
+    border-radius: 35px;
+}
+td > img{
+    width: 71%;
+    height: 71%;
 }

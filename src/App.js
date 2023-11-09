@@ -6,7 +6,7 @@ import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
 
 function App() {
   return (
-    <Router className='wrapper'>
+    <Router className='wrapper' basename={process.env.PUBLIC_URL}>
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container fluid>
           <Navbar.Brand href="#">SSJ Porfolio</Navbar.Brand>
@@ -33,8 +33,65 @@ function App() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <div className='contentWrapper'>
+      <body>
+      <header>
+        <img src="/image/me.png" alt="나의 사진" id="profile"/>
+        <span id="title"><span id="keyWord">"매일 발전하는 개발자"</span><br/>
+        서상준입니다.</span>
+      </header>
+      <div id="content">
+        <div id="Intro">
+          <div class="content-item">
+            <div class="content-title">Education</div>
+            <div class="education-item">
+              <div class="education-item-title">
+                가천대학교 컴퓨터공학부(컴퓨터공학전공)
+              </div>
+              <div class="education-item-content">
+                2020.03 ~ 
+              </div>
+              <div class="education-item-title">
+                설화고등학교
+              </div>
+              <div class="education-item-content">
+                2017.03 ~ 2020.02 
+              </div>
+              <div class="education-item-title">
+                배방중학교
+              </div>
+              <div class="education-item-content">
+                2014.03 ~ 2017.02 
+              </div>
+              <div class="education-item-title">
+                배방초등학교
+              </div>
+              <div class="education-item-content">
+                2008.03 ~ 2014.02
+              </div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+        <div id="skills">
+          <div class="content-item">
+            <div class="content-title">Skills</div>
+            <div class="education-item">
+              <table>
+                <tr><td><img src="/image/html.svg" alt="html"/></td>
+                <td><img src="/image/css.svg" alt="css"/></td>
+                <td><img src="/image/node.svg" alt="node"/></td>
+                </tr>
+                <br/>
+                <tr><td><img src="/image/firebase.svg" alt="firebase"/></td>
+                <td><img src="/image/amazon.svg" alt="amazon"/></td>
+                <td><img src="/image/python.svg" alt="python"/></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
       </div>
+      </body>
       <footer expand="lg" className="bg-body-tertiary">
         <div class="container">
           <div class="row">
