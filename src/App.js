@@ -2,6 +2,9 @@ import { BrowserRouter as Router } from "react-router-dom"
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
+import Footer from "./comp/Footer"
+import Title from "./comp/Title"
+import Skills from "./comp/Skills";
 import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
 
 function App() {
@@ -42,66 +45,18 @@ function App() {
       <div id="content">
         <div id="Intro">
           <div class="content-item">
-            <div class="content-title">Education</div>
-            <div class="education-item">
-              <div class="education-item-title">
-                가천대학교 컴퓨터공학부(컴퓨터공학전공)
-              </div>
-              <div class="education-item-content">
-                2020.03 ~ 
-              </div>
-              <div class="education-item-title">
-                설화고등학교
-              </div>
-              <div class="education-item-content">
-                2017.03 ~ 2020.02 
-              </div>
-              <div class="education-item-title">
-                배방중학교
-              </div>
-              <div class="education-item-content">
-                2014.03 ~ 2017.02 
-              </div>
-              <div class="education-item-title">
-                배방초등학교
-              </div>
-              <div class="education-item-content">
-                2008.03 ~ 2014.02
-              </div>
-            </div>
+            <Title />
           </div>
         </div>
         <div></div>
-        <div id="skills">
+        <div id="Skills">
           <div class="content-item">
-            <div class="content-title">Skills</div>
-            <div class="education-item">
-              <table>
-                <tr><td><img src="/image/html.svg" alt="html"/></td>
-                <td><img src="/image/css.svg" alt="css"/></td>
-                <td><img src="/image/node.svg" alt="node"/></td>
-                </tr>
-                <br/>
-                <tr><td><img src="/image/firebase.svg" alt="firebase"/></td>
-                <td><img src="/image/amazon.svg" alt="amazon"/></td>
-                <td><img src="/image/python.svg" alt="python"/></td>
-                </tr>
-              </table>
-            </div>
+            < Skills />
           </div>
         </div>
       </div>
       </body>
-      <footer expand="lg" className="bg-body-tertiary">
-        <div class="container">
-          <div class="row">
-            <div class="col text-center">
-              <h1 class="text-black font-weight-light text-capitalize p-3">SSJ Porfolio</h1>
-              <p class="text-black py-4 m-0">&copy;Copyright 2023 - Made by SSJ</p>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </Router>
   )
 }
