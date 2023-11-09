@@ -6,7 +6,7 @@ import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
 
 function App() {
   return (
-    <Router>
+    <Router className='wrapper'>
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container fluid>
           <Navbar.Brand href="#">SSJ Porfolio</Navbar.Brand>
@@ -33,12 +33,14 @@ function App() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
+      <div className='contentWrapper'>
+      </div>
       <footer expand="lg" className="bg-body-tertiary">
         <div class="container">
           <div class="row">
             <div class="col text-center">
-              <h1 class="text-white font-weight-light text-capitalize p-3">SSJ Porfolio</h1>
-              <p class="text-light py-4 m-0">&copy;Copyright 2023 - Made by SSJ</p>
+              <h1 class="text-black font-weight-light text-capitalize p-3">SSJ Porfolio</h1>
+              <p class="text-black py-4 m-0">&copy;Copyright 2023 - Made by SSJ</p>
             </div>
           </div>
         </div>
