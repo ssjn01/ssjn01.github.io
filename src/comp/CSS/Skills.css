@@ -1,5 +1,11 @@
 div > img{
-    width: 28px;
-    height: 28px;
-    margin-right: 2%;
+    width: 6.25;
+    height: 6.25;
+    margin-right: 20px;
+}
+td > img{
+    width: 5.1em;
+    height: 5.1em;
+    margin-left: 1.25em;
+    margin-right: 1.25em;
 }

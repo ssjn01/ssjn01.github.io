@@ -12,7 +12,7 @@ function App() {
     <Router className='wrapper' basename={process.env.PUBLIC_URL}>
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container fluid>
-          <Navbar.Brand href="#">SSJ Porfolio</Navbar.Brand>
+          <Navbar.Brand href="#"><span id="nav-title">SSJ Portfolio</span></Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
@@ -20,16 +20,15 @@ function App() {
               style={{ maxHeight: '100px' }}
               navbarScroll
             >
-              <Nav.Link href="#Intro">About me</Nav.Link>
-              <Nav.Link href="#Skills">Skills</Nav.Link>
-              <NavDropdown title="Project" id="navbarScrollingDropdown">
-                <NavDropdown.Item href="#Project1">Project1</NavDropdown.Item>
-                <NavDropdown.Item href="#Project2">Project2
-                </NavDropdown.Item>
+              <Nav.Link href="#Intro"><span class="nav-content">About me</span></Nav.Link>
+              <Nav.Link href="#Skills"><span class="nav-content">Skills</span></Nav.Link>
+              <NavDropdown title="Project" style={{fontSize:'20px'}} id="navbarScrollingDropdown">
+                <NavDropdown.Item href="#Project1"><span class="nav-content">Project1</span></NavDropdown.Item>
+                <NavDropdown.Item href="#Project2"><span class="nav-content">Project2</span></NavDropdown.Item>
               </NavDropdown>
-              <NavDropdown title="Competition" id="navbarScrollingDropdown">
-                <NavDropdown.Item href="#Competition1">Competition1</NavDropdown.Item>
-                <NavDropdown.Item href="#Competition2">Competition2
+              <NavDropdown title="Competition" style={{fontSize:'20px'}} id="navbarScrollingDropdown">
+                <NavDropdown.Item href="#Competition1"><span class="nav-content">Competition1</span></NavDropdown.Item>
+                <NavDropdown.Item href="#Competition2"><span class="nav-content">Competition2</span>
                 </NavDropdown.Item>
               </NavDropdown>
             </Nav>

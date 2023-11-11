@@ -1,5 +1,14 @@
 div > img{
     width: 28px;
     height: 28px;
-    margin-right: 2%;
+    margin-right: 1%;
+}
+.education-item-title{
+    font-weight: 500;
+    font-size: 1em;
+    margin-bottom: 5px
+}
+.education-item-content{
+    font-weight: 300;
+    font-size: 0.8em;
 }

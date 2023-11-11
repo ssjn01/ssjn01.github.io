@@ -13,7 +13,6 @@ function Footer() {
             <Link to={"https://velog.io/@ssj01"}><img src="/image/velog.svg" alt="벨로그" target="_blank" /></Link>&nbsp; &#160;
             <Link to={"https://github.com/ssjn01"}><img src="/image/github.svg" alt="깃허브" target="_blank" /></Link>&nbsp; &#160;
             <Link to={"https://www.youtube.com/channel/UCODHXGQN47KuVXktxToZfYA"}><img src="/image/youtube.svg" alt="유튜브" target="_blank" /></Link>
-            &nbsp; &#160;
           </div>
         </div>
       </div>

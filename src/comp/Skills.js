@@ -7,7 +7,7 @@ function Skills() {
         <div class="content-title">
           <img src="/image/skill.svg" alt="능력" id="skills" />
           Skills</div>
-            <div class="education-item">
+            <div class="skills-item">
               <table>
                 <tr><td><img src="/image/html.svg" alt="html"/></td>
                 <td><img src="/image/css.svg" alt="css"/></td>
