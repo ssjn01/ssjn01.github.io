@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes} from "react-router-dom"
+import { BrowserRouter as Router} from "react-router-dom"
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
@@ -10,10 +10,6 @@ function App() {
   return (
     <Router className='wrapper' basename={process.env.PUBLIC_URL}>
     <Header />
-      <main>
-        <Routes>
-        </Routes>
-      </main>
       <body>
         <Home />
       </body>
