@@ -1,7 +1,7 @@
 import React from 'react'
 import './CSS/Title.css';
 
-function Title() {
+function Intro() {
   return (
     <>
       <div class="content-title">
@@ -37,4 +37,4 @@ function Title() {
   )
 }
 
-export default Title
+export default Intro
