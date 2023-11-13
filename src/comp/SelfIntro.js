@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Skills () {
+function SelfIntro () {
     return (
         <div>
             <h1> REACT의 Post Page</h1>
@@ -8,4 +8,4 @@ function Skills () {
     );
 };
 
-export default Skills
+export default SelfIntro
