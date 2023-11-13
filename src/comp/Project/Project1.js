@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Competiti () {
+function Project1() {
     return (
         <div>
-            <h1> REACT의 Post Page</h1>
+            <h1> HTML github blog Page</h1>
         </div>
     );
 };
 
-export default Competiti
+export default Project1

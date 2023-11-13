@@ -17,7 +17,7 @@ const Login = (props) => {
                     </td>
                 </tr>
             </table>
-            {id} {pwd}
+            {id} {pwd} 
         </div>
         <div></div>
         </>
