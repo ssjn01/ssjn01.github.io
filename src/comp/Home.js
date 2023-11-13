@@ -2,7 +2,6 @@ import React from 'react'
 import Intro from './Intro'
 import Languages from './Languages'
 
-
 function Home() {
     return (
       <>
