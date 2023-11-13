@@ -1,4 +1,3 @@
-import "bootstrap/dist/css/bootstrap.min.css";
 const Login = (props) => {
     const { id, pwd, changeId, changePwd } = props;
     return (
