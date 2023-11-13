@@ -6,7 +6,7 @@ function Header() {
     <>
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container fluid>
-          <Navbar.Brand href="#"><span id="nav-title">SSJ Portfolio</span></Navbar.Brand>
+          <Navbar.Brand href="/"><span id="nav-title">SSJ Portfolio</span></Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
@@ -15,7 +15,7 @@ function Header() {
               navbarScroll
             >
               <Nav.Link href="#Intro"><span class="nav-content">About me</span></Nav.Link>
-              <Nav.Link><span class="nav-content">Skills</span></Nav.Link>
+              <Nav.Link href="/Skills"><span class="nav-content">Skills</span></Nav.Link>
               <NavDropdown title="Project" style={{ fontSize: '20px' }} id="navbarScrollingDropdown">
                 <NavDropdown.Item href="#Project1"><span class="nav-content">Project1</span></NavDropdown.Item>
                 <NavDropdown.Item href="#Project2"><span class="nav-content">Project2</span></NavDropdown.Item>
