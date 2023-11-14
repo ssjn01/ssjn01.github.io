@@ -1,0 +1,93 @@
+#progress {
+    appearance: none;
+    width: 80%;
+}
+#progress::-webkit-progress-bar {
+    background:#f0f0f0;
+    border-radius:10px;
+    box-shadow: inset 3px 3px 10px #ccc;
+}
+#progress::-webkit-progress-value {
+    border-radius:10px;
+    background: #ea312b;
+    background: -webkit-linear-gradient(to right, #f96969, #ea312b);
+    background: linear-gradient(to right, #f96969, #ea312b);
+}
+#progress3 {
+    appearance: none;
+    width: 80%;
+}
+#progress3::-webkit-progress-bar {
+    background:#f0f0f0;
+    border-radius:10px;
+    box-shadow: inset 3px 3px 10px #ccc;
+}
+#progress3::-webkit-progress-value {
+    border-radius:10px;
+    background: #fbc70c;
+    background: -webkit-linear-gradient(to right, #ffe070, #fbc70c);
+    background: linear-gradient(to right, #ffe070, #fbc70c);
+}
+.icon{
+    width: 2.5em;
+    height: 2.5em;
+    margin-bottom: 3%;
+    margin-right: 2%;
+}
+#progress2::-webkit-progress-value {
+    border-radius:10px;
+    background: #1D976C;
+    background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);
+    background: linear-gradient(to right, #93F9B9, #1D976C);
+}
+#progress2 {
+    appearance: none;
+    width: 80%;
+}
+#progress2::-webkit-progress-bar {
+    background:#f0f0f0;
+    border-radius:10px;
+    box-shadow: inset 3px 3px 10px #ccc;
+}
+#communicate{
+    margin-top: 2%;
+}
+#progress4 {
+    appearance: none;
+    width: 80%;
+}
+#progress4::-webkit-progress-bar {
+    background:#f0f0f0;
+    border-radius:10px;
+    box-shadow: inset 3px 3px 10px #ccc;
+}
+#progress4::-webkit-progress-value {
+    border-radius:10px;
+    background: #2e01f7;
+    background: -webkit-linear-gradient(to right, #8471ff, #2e01f7);
+    background: linear-gradient(to right, #8471ff, #2e01f7);
+}
+#Skills:hover{
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+#Skills{
+    transform: scale(1);
+    transition: all 0.5s;
+}
+#communicate:hover{
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+#communicate{
+    transform: scale(1);
+    transition: all 0.5s;
+}
+#others:hover{
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+#others{
+    transform: scale(1);
+    transition: all 0.5s;
+}

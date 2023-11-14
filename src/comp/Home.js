@@ -1,6 +1,7 @@
 import React from 'react'
 import Intro from './Intro'
 import Languages from './Languages'
+import './Home.css';
 
 function Home() {
     return (

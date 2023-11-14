@@ -1,6 +1,4 @@
 import './CSS/Login.css';
-import Form from 'react-bootstrap/Form';
-import InputGroup from 'react-bootstrap/InputGroup';
 
 const Login = (props) => {
     const { id, pwd, changeId, changePwd } = props;
