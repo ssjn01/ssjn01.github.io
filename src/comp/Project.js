@@ -1,5 +1,6 @@
 import React from 'react'
 import './CSS/Project.css'
+import { Link } from 'react-router-dom';
 
 function Project() {
     return (
@@ -7,13 +8,15 @@ function Project() {
         <div id="content">
           <div id="Project1">
             <div class="content-item1">
-              <img src='/image/Project1.png' alt="블로그 프로젝트" class="Project-image1"/>
+            <Link to={"https://20ssj.github.io/"} style={{textDecoration: "none", color: "black"}}>
+              <span class="content-text1" style={{fontSize:"15px"}}>여행 블로그</span>
+              </Link>
             </div>
           </div>
           <div></div>
           <div id="Project2">
-            <div class="content-item1">
-              <img src='/image/flutter.png' alt="플러터 프로젝트" class="Project-image2"/>
+            <div class="content-item2">
+            <span class="content-text" style={{fontSize:"15px"}}>flutter로 만든 앱</span>
             </div>
           </div>
         </div>

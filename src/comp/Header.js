@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
+import { Navbar, Container, Nav } from "react-bootstrap";
 import { Link } from 'react-router-dom';
 function Header() {
   return (
@@ -17,11 +17,7 @@ function Header() {
               <Nav.Link as={Link} to="/Intro"><span class="nav-content">About me</span></Nav.Link>
               <Nav.Link as={Link} to="/Skills"><span class="nav-content">Skills</span></Nav.Link>
               <Nav.Link as={Link} to="/Project"><span class="nav-content">Project</span></Nav.Link>
-              <NavDropdown title="Competition" style={{ fontSize: '20px' }} id="navbarScrollingDropdown">
-                <NavDropdown.Item as={Link} to="/Competition1"><span class="nav-content">Competition1</span></NavDropdown.Item>
-                <NavDropdown.Item as={Link} to  ="/Competition2"><span class="nav-content">Competition2</span>
-                </NavDropdown.Item>
-              </NavDropdown>
+              <Nav.Link as={Link} to="/Competition"><span class="nav-content">Competition</span></Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
