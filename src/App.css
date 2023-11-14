@@ -38,7 +38,7 @@ header {
     background-color: white;
     border: 2px solid whitesmoke;
     border-radius: 20px;
-    box-shadow: 0 3px 3px rgba(0,0,0,0.2);;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.2);
 }
 .content-title{
     font-size: 1.75em;
@@ -54,11 +54,6 @@ header {
 }
 #keyWord{
     font-weight: 200;
-}
-#profile{
-    width: 170px;
-    height: 170px;
-    border-radius: 35px;
 }
 #Intro:hover{
     transform: scale(1.05);

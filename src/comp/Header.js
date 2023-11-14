@@ -16,11 +16,7 @@ function Header() {
             >
               <Nav.Link as={Link} to="/Intro"><span class="nav-content">About me</span></Nav.Link>
               <Nav.Link as={Link} to="/Skills"><span class="nav-content">Skills</span></Nav.Link>
-              <Nav.Link as={Link} to="/Specification"><span class="nav-content">Specification</span></Nav.Link>
-              <NavDropdown title="Project" style={{ fontSize: '20px' }} id="navbarScrollingDropdown">
-                <NavDropdown.Item as={Link} to="/Project1"><span class="nav-content">Project1</span></NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/Project2"><span class="nav-content">Project2</span></NavDropdown.Item>
-              </NavDropdown>
+              <Nav.Link as={Link} to="/Project"><span class="nav-content">Project</span></Nav.Link>
               <NavDropdown title="Competition" style={{ fontSize: '20px' }} id="navbarScrollingDropdown">
                 <NavDropdown.Item as={Link} to="/Competition1"><span class="nav-content">Competition1</span></NavDropdown.Item>
                 <NavDropdown.Item as={Link} to  ="/Competition2"><span class="nav-content">Competition2</span>

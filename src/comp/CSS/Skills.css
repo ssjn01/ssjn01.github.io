@@ -49,9 +49,6 @@
     border-radius:10px;
     box-shadow: inset 3px 3px 10px #ccc;
 }
-#communicate{
-    margin-top: 2%;
-}
 #progress4 {
     appearance: none;
     width: 80%;
@@ -67,11 +64,11 @@
     background: -webkit-linear-gradient(to right, #8471ff, #2e01f7);
     background: linear-gradient(to right, #8471ff, #2e01f7);
 }
-#Skills:hover{
+#Icon-content:hover{
     transform: scale(1.05);
     transition: all 0.5s;
 }
-#Skills{
+#Icon-content{
     transform: scale(1);
     transition: all 0.5s;
 }
@@ -82,6 +79,7 @@
 #communicate{
     transform: scale(1);
     transition: all 0.5s;
+    margin-top: 4%;
 }
 #others:hover{
     transform: scale(1.05);
@@ -90,4 +88,26 @@
 #others{
     transform: scale(1);
     transition: all 0.5s;
+}
+#certificate:hover{
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+#certificate{
+    transform: scale(1);
+    transition: all 0.5s;
+    margin-top: 4%;
+}
+.certi{
+    width: 5.1em;
+    height: 5em;
+    margin-left: 1.25em;
+    margin-right: 1.25em;
+}
+.certi1{
+    width: 5em;
+    height: 3em;
+    margin-left: 1.25em;
+    margin-right: 1.25em;
+    margin-bottom: 3.5%;
 }
