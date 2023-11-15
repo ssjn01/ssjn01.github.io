@@ -1,10 +1,10 @@
-import React from 'react'
+ import React from 'react'
 import './CSS/Competiti.css'
 
 function Competiti () {
     return (
         <>
-        <div id="content">
+        <div id="content2">
           <div id="Competiti1">
             <div class="content-competiti1">
               <span class="competiti-txt" style={{fontSize:"15px"}}>생각한 것을 만들어보는 공모전</span>

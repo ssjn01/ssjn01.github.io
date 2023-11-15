@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Project() {
     return (
         <>
-        <div id="content">
+        <div id="content2">
           <div id="Project1">
             <div class="content-item1">
             <Link to={"https://20ssj.github.io/"} style={{textDecoration: "none", color: "black"}}>

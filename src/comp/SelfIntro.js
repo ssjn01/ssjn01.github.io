@@ -2,6 +2,7 @@ import { useState } from "react";
 import Login from './Login';
 import React from 'react'
 import './CSS/SelfIntro.css'
+import { Link } from "react-router-dom";
 
 
 function SelfIntro() {
@@ -18,7 +19,7 @@ function SelfIntro() {
 
     return (
       <>
-        <div id="content">
+        <div id="content2">
           <div class="anima">
             <div class="content-item">
               <div class="content-title">
@@ -71,9 +72,11 @@ function SelfIntro() {
                   </div>
                 </div>
                 <div class="about-me-content">
-                  <div class="aboutMe-img"><img src="/image/insta.svg" alt="email" class="ig" /></div>
+                  <div class="aboutMe-img">
+                    <Link to={"https://www.instagram.com/jun_Suh/"}>
+                      <img src="/image/insta.svg" alt="인스타" target="_blank" class="ig" /></Link></div>
                   <div class="content-img-txt">
-                    <div class="txt-title">Jun_Suh</div>
+                    <div class="txt-title">jun_Suh</div>
                     <div class="txt-content">인스타그램 </div>
                   </div>
                 </div>
