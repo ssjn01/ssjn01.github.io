@@ -1,0 +1,21 @@
+.about-me-content{
+    display: grid;
+    grid-template-columns: 50px 1fr auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.txt-title{
+    font-weight: 500;
+    font-size: 17px;
+    margin-bottom: 5px;
+    color: #444952
+}
+.txt-content{
+    font-weight: 300;
+    font-size: 13px;
+    color: #A5ADBA;
+}
+.ig{
+    width: 2.8em;
+    height: 2.8em;
+}

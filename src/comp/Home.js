@@ -12,13 +12,13 @@ function Home() {
             서상준입니다.</span>
         </header>
         <div id="content">
-          <div id="Intro">
+          <div class="anima">
             <div class="content-item">
               <Intro />
             </div>
           </div>
           <div></div>
-          <div id="Languages">
+          <div class="anima">
             <div class="content-item">
               < Languages />
             </div>

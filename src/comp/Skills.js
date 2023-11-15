@@ -7,12 +7,12 @@ function Skills() {
         <>
             <div id="content">
                 <div id="Skills">
-                    <div id="Icon-content">
+                    <div class="anima">
                         <div class="content-item">
                             <Icon />
                         </div>
                     </div>
-                    <div id="communicate">
+                    <div class="animati">
                         <div class="content-item">
                             <div class="content-title">
                                 Communicate</div>
@@ -25,7 +25,7 @@ function Skills() {
                 </div>
                 <div></div>
                 <div>
-                    <div id="others">
+                    <div class="anima">
                         <div class="content-item">
                             <div class="content-title">
                                 Other Dev</div>
@@ -35,7 +35,7 @@ function Skills() {
                             <progress id="progress3" value="40" min="0" max="100"></progress>
                         </div>
                     </div>
-                    <div id="certificate">
+                    <div class="animati">
                         <div class="content-item">
                             <div class="content-title">
                                 Certificate</div>

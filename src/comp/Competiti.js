@@ -13,7 +13,7 @@ function Competiti () {
           <div></div>
           <div id="Competiti2">
             <div class="content-competiti2">
-            <span class="competiti-txt" style={{fontSize:"15px"}}>flutter로 만든 앱</span>
+            <span class="competiti-txt" style={{fontSize:"15px"}}>해커톤 참여 예정</span>
             </div>
           </div>
         </div>

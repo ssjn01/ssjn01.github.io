@@ -55,19 +55,11 @@ header {
 #keyWord{
     font-weight: 200;
 }
-#Intro:hover{
+.anima:hover{
     transform: scale(1.05);
     transition: all 0.5s;
 }
-#Intro{
-    transform: scale(1);
-    transition: all 0.5s;
-}
-#Languages:hover{
-    transform: scale(1.05);
-    transition: all 0.5s;
-}
-#Languages{
+.anima{
     transform: scale(1);
     transition: all 0.5s;
 }

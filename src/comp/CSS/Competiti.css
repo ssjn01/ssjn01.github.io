@@ -1,7 +1,7 @@
 .content-competiti1 {
     position: relative;
     width: 35em;
-    height: 37em;
+    height: 24em;
     border-radius: 9px;
     background: url('/public/image/contest1.png') no-repeat;
     background-size: contain;
@@ -10,14 +10,14 @@
 
 .content-competiti2 {
     position: relative;
-    width: 36em;
-    height: 37em;
+    width: 15.3em;
+    height: 25em;
     border-radius: 10px;
-    background: url('/public/image/flutter.png') no-repeat;
+    background: url('/public/image/hackerton.png') no-repeat;
     background-size: contain;
 }
 .competiti-txt{
     position: absolute;
-    bottom: 16.5em;
+    bottom: 25.1em;
     right: 1em;
 }

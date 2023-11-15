@@ -64,36 +64,11 @@
     background: -webkit-linear-gradient(to right, #8471ff, #2e01f7);
     background: linear-gradient(to right, #8471ff, #2e01f7);
 }
-#Icon-content:hover{
+.animati:hover{
     transform: scale(1.05);
     transition: all 0.5s;
 }
-#Icon-content{
-    transform: scale(1);
-    transition: all 0.5s;
-}
-#communicate:hover{
-    transform: scale(1.05);
-    transition: all 0.5s;
-}
-#communicate{
-    transform: scale(1);
-    transition: all 0.5s;
-    margin-top: 4%;
-}
-#others:hover{
-    transform: scale(1.05);
-    transition: all 0.5s;
-}
-#others{
-    transform: scale(1);
-    transition: all 0.5s;
-}
-#certificate:hover{
-    transform: scale(1.05);
-    transition: all 0.5s;
-}
-#certificate{
+.animati{
     transform: scale(1);
     transition: all 0.5s;
     margin-top: 4%;
