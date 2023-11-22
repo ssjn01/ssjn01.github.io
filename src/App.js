@@ -9,7 +9,7 @@ import Skills from "./comp/Skills";
 import SelfIntro from "./comp/SelfIntro"
 import Project from "./comp/Project"
 import Competition from "./comp/Competiti"
-import Specifications from "./comp/Specifications/Spec"
+import Specifications from "./comp/Spec"
 
 function App() {
   return (
