@@ -1,85 +1,101 @@
-#progress {
-    appearance: none;
-    width: 80%;
-}
-#progress::-webkit-progress-bar {
-    background:#f0f0f0;
-    border-radius:10px;
-    box-shadow: inset 3px 3px 10px #ccc;
-}
-#progress::-webkit-progress-value {
-    border-radius:10px;
-    background: #ea312b;
-    background: -webkit-linear-gradient(to right, #f96969, #ea312b);
-    background: linear-gradient(to right, #f96969, #ea312b);
-}
-#progress3 {
-    appearance: none;
-    width: 80%;
-}
-#progress3::-webkit-progress-bar {
-    background:#f0f0f0;
-    border-radius:10px;
-    box-shadow: inset 3px 3px 10px #ccc;
-}
-#progress3::-webkit-progress-value {
-    border-radius:10px;
-    background: #fbc70c;
-    background: -webkit-linear-gradient(to right, #ffe070, #fbc70c);
-    background: linear-gradient(to right, #ffe070, #fbc70c);
-}
-.icon{
+.icon {
     width: 2.5em;
     height: 2.5em;
     margin-bottom: 3%;
     margin-right: 2%;
 }
-#progress2::-webkit-progress-value {
-    border-radius:10px;
-    background: #1D976C;
-    background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);
-    background: linear-gradient(to right, #93F9B9, #1D976C);
-}
-#progress2 {
-    appearance: none;
-    width: 80%;
-}
-#progress2::-webkit-progress-bar {
-    background:#f0f0f0;
-    border-radius:10px;
-    box-shadow: inset 3px 3px 10px #ccc;
-}
-#progress4 {
-    appearance: none;
-    width: 80%;
-}
-#progress4::-webkit-progress-bar {
-    background:#f0f0f0;
-    border-radius:10px;
-    box-shadow: inset 3px 3px 10px #ccc;
-}
-#progress4::-webkit-progress-value {
-    border-radius:10px;
-    background: #2e01f7;
-    background: -webkit-linear-gradient(to right, #8471ff, #2e01f7);
-    background: linear-gradient(to right, #8471ff, #2e01f7);
-}
-.animati:hover{
-    transform: scale(1.05);
-    transition: all 0.5s;
-}
-.animati{
+
+.animati {
     transform: scale(1);
     transition: all 0.5s;
     margin-top: 4%;
 }
-.certi{
+
+.animati:hover {
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+
+#progress {
+    appearance: none;
+    width: 80%;
+}
+
+#progress::-webkit-progress-bar {
+    background: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: inset 3px 3px 10px #ccc;
+}
+
+#progress::-webkit-progress-value {
+    border-radius: 10px;
+    background: #ea312b;
+    background: -webkit-linear-gradient(to right, #f96969, #ea312b);
+    background: linear-gradient(to right, #f96969, #ea312b);
+}
+
+#progress3 {
+    appearance: none;
+    width: 80%;
+}
+
+#progress3::-webkit-progress-bar {
+    background: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: inset 3px 3px 10px #ccc;
+}
+
+#progress3::-webkit-progress-value {
+    border-radius: 10px;
+    background: #fbc70c;
+    background: -webkit-linear-gradient(to right, #ffe070, #fbc70c);
+    background: linear-gradient(to right, #ffe070, #fbc70c);
+}
+
+#progress2::-webkit-progress-value {
+    border-radius: 10px;
+    background: #1D976C;
+    background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);
+    background: linear-gradient(to right, #93F9B9, #1D976C);
+}
+
+#progress2 {
+    appearance: none;
+    width: 80%;
+}
+
+#progress2::-webkit-progress-bar {
+    background: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: inset 3px 3px 10px #ccc;
+}
+
+#progress4 {
+    appearance: none;
+    width: 80%;
+}
+
+#progress4::-webkit-progress-bar {
+    background: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: inset 3px 3px 10px #ccc;
+}
+
+#progress4::-webkit-progress-value {
+    border-radius: 10px;
+    background: #2e01f7;
+    background: -webkit-linear-gradient(to right, #8471ff, #2e01f7);
+    background: linear-gradient(to right, #8471ff, #2e01f7);
+}
+
+.certi {
     width: 5.1em;
     height: 5em;
     margin-left: 1.25em;
     margin-right: 1.25em;
 }
-.certi1{
+
+.certi1 {
     width: 5em;
     height: 3em;
     margin-left: 1.25em;

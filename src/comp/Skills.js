@@ -51,7 +51,6 @@ function Skills() {
                             <div class="education-item-title">
                                 정보처리기사 - (2024년 취득 예정)
                             </div>
-
                         </div>
                     </div>
                 </div>

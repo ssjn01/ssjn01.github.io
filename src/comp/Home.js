@@ -20,13 +20,12 @@ function Home() {
           <div></div>
           <div class="anima">
             <div class="content-item">
-              < Languages />
+              <Languages />
             </div>
           </div>
         </div>
       </>
     )
 };
-
 
 export default Home
