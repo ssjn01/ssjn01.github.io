@@ -1,11 +1,11 @@
 import React from 'react'
-import './CSS/Title.css';
+import './CSS/Intro.css';
 
 function Intro() {
   return (
     <>
       <div class="content-title">
-        <img src="/image/school.svg" alt="학생증" id="pass"/>
+        <img src="/image/school.svg" alt="학생증" id="pass" />
         Education</div>
       <div class="education-item">
         <div class="education-item-title">
