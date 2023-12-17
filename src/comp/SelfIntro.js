@@ -19,6 +19,7 @@ function SelfIntro() {
 
     return (
       <>
+      <div class="comp-title">About me</div>
         <div id="content2">
           <div class="anima">
             <div class="content-item">

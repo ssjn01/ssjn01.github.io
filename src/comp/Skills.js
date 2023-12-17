@@ -5,6 +5,7 @@ import Icon from './Icon';
 function Skills() {
     return (
         <>
+        <div class="comp-title">Skills</div>
             <div id="content">
                 <div id="Skills">
                     <div class="anima">
@@ -17,7 +18,7 @@ function Skills() {
                             <div class="content-title">
                                 Communicate</div>
                             <img src="/image/kakao.svg" alt="kakao" class="icon" />
-                            <progress id="progress4" value="100" min="0" max="100"></progress>
+                            <progress id="progress4" value="100" min="0" max="100"></progress><br/>
                             <img src="/image/discord.svg" alt="discord" class="icon" />
                             <progress id="progress2" value="70" min="0" max="100"></progress>
                         </div>
@@ -30,7 +31,7 @@ function Skills() {
                             <div class="content-title">
                                 Other Dev</div>
                             <img src="/image/c.svg" alt="c" class="icon" />
-                            <progress id="progress2" value="80" min="0" max="100"></progress>
+                            <progress id="progress2" value="80" min="0" max="100"></progress><br/>
                             <img src="/image/cpp.svg" alt="cpp" class="icon" />
                             <progress id="progress3" value="40" min="0" max="100"></progress>
                         </div>
@@ -41,7 +42,7 @@ function Skills() {
                                 Certificate</div>
                             <img src="/image/icqa.png" alt="네관사" className='certi1' />
                             <div class="education-item-title">
-                                정보처리기사 - (2023년 12월 취득 예정)
+                                네트워크 관리사 2급
                             </div>
                             <img src="/image/kcci.png" alt="네관사" className='certi' />
                             <div class="education-item-title">

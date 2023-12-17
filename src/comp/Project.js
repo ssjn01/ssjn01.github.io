@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 function Project() {
     return (
         <>
+        <div class="comp-title">Projects</div>
         <div id="content2">
           <div id="Project1">
             <div class="content-item1">

@@ -4,6 +4,7 @@ import './CSS/Competiti.css'
 function Competiti () {
     return (
         <>
+        <div class="comp-title">Competition</div>
         <div id="content2">
           <div id="Competiti1">
             <div class="content-competiti1">
