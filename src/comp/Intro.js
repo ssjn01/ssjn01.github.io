@@ -39,6 +39,17 @@ function Intro() {
           2008.03 ~ 2014.02
         </div>
       </div>
+      <div class="content-title" id="career-title">
+        <img src="/image/person.svg" alt="경력" id="career" />
+        Career</div>
+      <div class="education-item">
+        <div class="education-item-title">
+          하이비전시스템 인턴
+        </div>
+        <div class="education-item-content">
+          2025.08 ~ 2025.12
+        </div>
+      </div>
     </>
   )
 }
