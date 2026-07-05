@@ -1,4 +1,4 @@
-img {
+footer img {
     width: 28px;
     height: 27.5px;
     margin-bottom: 0.6%;
@@ -8,6 +8,8 @@ img {
     color: #000000;
     font-size: 28px;
 }
-footer{
-    transform: translateY(70%);
+
+footer {
+    margin-top: auto;
+    padding: 16px 8px 20px;
 }

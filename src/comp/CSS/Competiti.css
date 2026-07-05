@@ -1,7 +1,7 @@
 .content-competiti1 {
     position: relative;
-    width: 35em;
-    height: 24em;
+    width: min(35em, 100%);
+    aspect-ratio: 35 / 24;
     border-radius: 9px;
     background: url('/public/image/contest1.png') no-repeat;
     background-size: contain;
@@ -10,15 +10,16 @@
 
 .content-competiti2 {
     position: relative;
-    width: 15.3em;
-    height: 25em;
+    width: min(15.3em, 100%);
+    aspect-ratio: 15.3 / 25;
     border-radius: 10px;
     background: url('/public/image/hackerton.png') no-repeat;
     background-size: contain;
 }
+
 .competiti-txt{
     position: absolute;
-    bottom: 25.1em;
+    top: -1.8em;
     right: 1em;
 }
 
