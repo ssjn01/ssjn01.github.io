@@ -1,29 +1,36 @@
 header {
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     text-align: center;
-    font-size: 60px;
     font-weight: bolder;
-    margin-left: 20%;
+    gap: 20px 50px;
+    padding: 0 16px;
     margin-bottom: 2%;
     margin-top: 2%;
 }
 
 #profile {
-    width: 170px;
-    height: 170px;
+    width: clamp(120px, 20vw, 170px);
+    height: auto;
     border-radius: 35px;
 }
 
 #title {
-    font-size: 45px;
+    font-size: clamp(26px, 5vw, 45px);
     font-weight: 600;
     line-height: 150%;
-    margin-left: 50px;
 }
 
 #keyWord {
     font-weight: 200;
+}
+
+#subTitle {
+    font-size: 0.45em;
+    font-weight: 400;
+    color: #6c757d;
 }
 
 div>img {

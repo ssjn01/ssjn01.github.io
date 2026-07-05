@@ -40,17 +40,19 @@ function Skills() {
                         <div class="content-item">
                             <div class="content-title">
                                 Certificate</div>
-                            <img src="/image/icqa.png" alt="네관사" className='certi1' />
-                            <div class="education-item-title">
-                                네트워크 관리사 2급
-                            </div>
-                            <img src="/image/kcci.png" alt="네관사" className='certi' />
-                            <div class="education-item-title">
-                                컴퓨터활용능력 1급 - (2024년 취득 예정)
-                            </div>
                             <img src="/image/certi1.png" alt="정보처리기사" className='certi' />
                             <div class="education-item-title">
-                                정보처리기사 - (2024년 취득 예정)
+                                정보처리기사 (2026년 취득)
+                            </div>
+                            <div class="education-item-title">
+                                빅데이터분석기사 (2026년 취득)
+                            </div>
+                            <div class="education-item-title">
+                                ADsP 데이터분석 준전문가 (2026년 취득)
+                            </div>
+                            <img src="/image/icqa.png" alt="네트워크 관리사" className='certi1' />
+                            <div class="education-item-title">
+                                네트워크 관리사 2급
                             </div>
                         </div>
                     </div>

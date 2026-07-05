@@ -6,7 +6,7 @@
 html,body {
     margin: 0;
     padding: 0;
-    height: 100vh;
+    min-height: 100vh;
     font-family: 'Pretendard', sans-serif;
 }
 
@@ -62,8 +62,25 @@ html,body {
 }
 
 .comp-title{
-    font-size: 3em;
+    font-size: clamp(2em, 5vw, 3em);
     font-weight: 700;
     text-align: center;
     margin-top: 1%;
+}
+
+@media (max-width: 900px) {
+    #content,
+    #content2 {
+        grid-template-columns: 1fr;
+        gap: 24px;
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-top: 24px;
+        margin-bottom: 32px;
+    }
+
+    #content > div:empty,
+    #content2 > div:empty {
+        display: none;
+    }
 }

@@ -9,10 +9,16 @@ function Intro() {
         Education</div>
       <div class="education-item">
         <div class="education-item-title">
+          삼성청년SW·AI아카데미(SSAFY) 15기
+        </div>
+        <div class="education-item-content">
+          2026.01 ~ (교육 중)
+        </div>
+        <div class="education-item-title">
           가천대학교 컴퓨터공학부(컴퓨터공학전공)
         </div>
         <div class="education-item-content">
-          2020.03 ~
+          2020.03 ~ 2026.02 (졸업)
         </div>
         <div class="education-item-title">
           설화고등학교
@@ -31,6 +37,17 @@ function Intro() {
         </div>
         <div class="education-item-content">
           2008.03 ~ 2014.02
+        </div>
+      </div>
+      <div class="content-title" id="career-title">
+        <img src="/image/person.svg" alt="경력" id="career" />
+        Career</div>
+      <div class="education-item">
+        <div class="education-item-title">
+          하이비전시스템 인턴
+        </div>
+        <div class="education-item-content">
+          2025.08 ~ 2025.12
         </div>
       </div>
     </>

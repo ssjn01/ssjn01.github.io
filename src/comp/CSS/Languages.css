@@ -1,6 +1,14 @@
-td > img{
-    width: 5.1em;
-    height: 5.1em;
-    margin-left: 1.25em;
-    margin-right: 1.25em;
+.languages-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em 2em;
+    padding-top: 0.5em;
+}
+
+.languages-item img {
+    width: clamp(3.2em, 8vw, 5.1em);
+    height: clamp(3.2em, 8vw, 5.1em);
+    margin: 0;
 }
