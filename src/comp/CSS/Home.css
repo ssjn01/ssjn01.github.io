@@ -27,6 +27,12 @@ header {
     font-weight: 200;
 }
 
+#subTitle {
+    font-size: 0.45em;
+    font-weight: 400;
+    color: #6c757d;
+}
+
 div>img {
     width: 1.5em;
     height: 1.5em;
